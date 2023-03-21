@@ -136,6 +136,21 @@ p, h1, h2 {
   cursor: pointer;
 }
 
+.article {
+  padding: 1em;
+}
+
+.article:hover {
+  color: var(--secondary);
+  border-radius: 5px;
+  background-color: #dbdada;
+  
+}
+
+.article:hover .article-text, .article:hover .data {
+  text-shadow: -2px 2px 2px var(--headings);
+}
+
 .logo {
   align-items: center;
   gap: 6px;

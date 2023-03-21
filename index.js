@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 
 
+/*Saving the clicked img to local storage */
 let returnedImgSrc =""
 
 let blogsImgs = document.getElementsByClassName("blog_img")
@@ -33,6 +34,7 @@ function clickedImg(img) {
 }
 
 
+/*Setting up the "view more/less" link functional */
 
 const showMoreBtn = document.getElementById("more")
 let children = document.querySelectorAll("#articles .article:nth-child(n+4)")
@@ -62,11 +64,3 @@ function showMore() {
 }
 
 showMore()
-
-
-
-
-
-
-
-

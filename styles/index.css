@@ -1,0 +1,43 @@
+
+/*Hero*/
+.hero {
+  color: var(--secondary);
+  flex-direction: column;
+  height: fit-content;
+  min-height: 65vh;
+  justify-content: flex-end;
+  background-image: url("/images/article-image-hero-3x.png");
+  background-position: 50% 70%;
+   background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.hero h1 {
+  color: var(--secondary);
+}
+
+.hero-content {
+  max-width: 90%;
+}
+
+/*Blogs section*/
+.blogs .container {
+  display: grid;
+  align-items: center;
+  margin-bottom: 3.4em;
+}
+
+
+@media (min-width:480px) {
+ 
+ .hero {
+  background-position: 50% 40%;
+  padding-bottom: 2.3em;
+ }
+
+ .hero-content {
+  max-width: 60%;
+ }
+ 
+}

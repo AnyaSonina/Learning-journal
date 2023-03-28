@@ -1,7 +1,4 @@
-import {setHamburgerMenu} from "./utils.js"
-import {saveImgToLs} from "./utils.js"
-import {setInitialStyle} from "./utils.js"
-import {showMore} from "./utils.js"
+import {setHamburgerMenu, saveImgToLs, setInitialStyle, showMore} from "./utils.js"
 
 
 function settingImg() {

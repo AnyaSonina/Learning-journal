@@ -14,7 +14,6 @@ function setHamburgerMenu() {
   }))
 }
 
-export {setHamburgerMenu}
 
 function saveImgToLs() {
 
@@ -46,8 +45,6 @@ function saveImgToLs() {
   }
 }
 
-export {saveImgToLs}
-
 
 function setInitialStyle() {
   let children = document.querySelectorAll("#articles .article:nth-child(n+4)")
@@ -58,11 +55,13 @@ function setInitialStyle() {
     
   })
 
+  return childrenArr
+
 }
 
-export {setInitialStyle}
-
 function showMore() {
+
+  let childrenArr = setInitialStyle()
   
   const showMoreBtn = document.getElementById("more")
 
@@ -82,4 +81,4 @@ function showMore() {
     
 }
 
-export {showMore}
+export {showMore, setHamburgerMenu, saveImgToLs, setInitialStyle}
